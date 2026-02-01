@@ -1,6 +1,7 @@
 export interface MenuItem {
   nameEn: string;
   nameAr: string;
+  price?: string;
 }
 
 export interface MenuCategory {
